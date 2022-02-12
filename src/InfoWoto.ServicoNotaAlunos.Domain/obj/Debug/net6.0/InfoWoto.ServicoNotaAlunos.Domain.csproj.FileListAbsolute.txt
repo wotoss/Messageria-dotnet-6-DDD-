@@ -1,0 +1,12 @@
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.csproj.AssemblyReference.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.AssemblyInfoInputs.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.AssemblyInfo.cs
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.csproj.CoreCompileInputs.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.deps.json
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\bin\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Domain\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.pdb
