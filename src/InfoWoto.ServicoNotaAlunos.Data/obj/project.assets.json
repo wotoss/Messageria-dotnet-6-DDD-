@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "InfoWoto.ServicoNotaAlunos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "InfoWoto.ServicoNotaAlunos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InfoWoto.ServicoNotaAlunos.Domain/InfoWoto.ServicoNotaAlunos.Domain.csproj",
+      "msbuildProject": "../InfoWoto.ServicoNotaAlunos.Domain/InfoWoto.ServicoNotaAlunos.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "InfoWoto.ServicoNotaAlunos.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotalunos.Data\\InfoWoto.ServicoNotalunos.Data.csproj",
-      "projectName": "InfoWoto.ServicoNotalunos.Data",
-      "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotalunos.Data\\InfoWoto.ServicoNotalunos.Data.csproj",
+      "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj",
+      "projectName": "InfoWoto.ServicoNotaAlunos.Data",
+      "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotalunos.Data\\obj\\",
+      "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,7 +56,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+              "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

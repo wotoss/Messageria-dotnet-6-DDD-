@@ -1,14 +1,16 @@
-using System;
+
+
 using InfoWoto.ServicoNotaAlunos.Domain.ValueObjects;
+using InfoWoto.ServicoNotaAlunos.Domain.DomainObjects;
 
 namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
     //lembrando que ao herdar a (classe Entidade) estamos herdando o (Id)
-    public class Usuario : Entidade
+    public class Usuario : Entidade, IRaizAgregacao
     {
         //(2º passo )
         //como colcamos as propriedades como privados, só podemos ter acesso através do construtor
         public Usuario(string nome, string documentoIdentificacao,  DateTime dataNascimento, bool ativo,
-                       string email, Telefone telefoneContato, bool administrativo, DateTime dataCadastro )
+                       string email, Telefone telefoneContato, bool administrativo, DateTime dataCadastro)
         {
             Nome = nome;
             DocumentoIdentificacao = documentoIdentificacao;

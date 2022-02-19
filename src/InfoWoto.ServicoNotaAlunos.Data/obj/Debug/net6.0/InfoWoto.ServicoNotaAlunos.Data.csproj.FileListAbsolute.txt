@@ -1,0 +1,5 @@
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.csproj.AssemblyReference.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.AssemblyInfoInputs.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.AssemblyInfo.cs
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.csproj.CoreCompileInputs.cache
