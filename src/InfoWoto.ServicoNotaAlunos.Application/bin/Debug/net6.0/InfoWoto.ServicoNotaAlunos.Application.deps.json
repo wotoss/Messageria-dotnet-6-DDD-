@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "InfoWoto.ServicoNotaAlunos.Application/1.0.0": {
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
+        "runtime": {
+          "InfoWoto.ServicoNotaAlunos.Application.dll": {}
+        }
+      },
+      "InfoWoto.ServicoNotaAlunos.Domain/1.0.0": {
+        "runtime": {
+          "InfoWoto.ServicoNotaAlunos.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InfoWoto.ServicoNotaAlunos.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InfoWoto.ServicoNotaAlunos.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

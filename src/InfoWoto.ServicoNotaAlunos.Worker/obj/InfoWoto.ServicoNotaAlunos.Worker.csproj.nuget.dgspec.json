@@ -4,6 +4,322 @@
     "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Worker\\InfoWoto.ServicoNotaAlunos.Worker.csproj": {}
   },
   "projects": {
+    "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\InfoWoto.ServicoNotaAlunos.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\InfoWoto.ServicoNotaAlunos.Application.csproj",
+        "projectName": "InfoWoto.ServicoNotaAlunos.Application",
+        "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\InfoWoto.ServicoNotaAlunos.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj",
+        "projectName": "InfoWoto.ServicoNotaAlunos.Data",
+        "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj",
+        "projectName": "InfoWoto.ServicoNotaAlunos.Domain",
+        "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj",
+        "projectName": "InfoWoto.ServicoNotaAlunos.IOC",
+        "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\InfoWoto.ServicoNotaAlunos.Application.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\InfoWoto.ServicoNotaAlunos.Application.csproj"
+              },
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Data\\InfoWoto.ServicoNotaAlunos.Data.csproj"
+              },
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              },
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.MessageBus\\InfoWoto.ServicoNotaAlunos.MessageBus.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.MessageBus\\InfoWoto.ServicoNotaAlunos.MessageBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.MessageBus\\InfoWoto.ServicoNotaAlunos.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.MessageBus\\InfoWoto.ServicoNotaAlunos.MessageBus.csproj",
+        "projectName": "InfoWoto.ServicoNotaAlunos.MessageBus",
+        "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.MessageBus\\InfoWoto.ServicoNotaAlunos.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Worker\\InfoWoto.ServicoNotaAlunos.Worker.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -30,7 +346,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

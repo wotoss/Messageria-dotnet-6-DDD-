@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n1IMpvygNRVSja//a5PSdzvaBrVUFgE/plVd7gF8uqk2ZWqhrTfnYUSuFpqrsO1ROtPo9E1EW1HPhvJ5a03HYQ==",
+  "dgSpecHash": "RQW04OmT+PdWiCsph6gH0a1ogAFiS80BFzGNzy6gFOrEhLaMC53VSIXd0MvN3sPq0evJw3faxgNkPZB7tDJpAw==",
   "success": true,
-  "projectFilePath": "C:\\worker-service\\src\\InfoWoto.ServicoNotalunos.Apllication\\InfoWoto.ServicoNotalunos.Apllication.csproj",
+  "projectFilePath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Application\\InfoWoto.ServicoNotaAlunos.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

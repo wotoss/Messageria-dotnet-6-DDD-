@@ -7,5 +7,8 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
     //neste contexto => toda classe que herdar desta classe terá (herdará um Id).
     public abstract class Entidade
     {
-        public int Id { get; private set; }
+        //Quando eu desço um nivel e coloco a propriedade como protected => Eu permito que quem
+        //herdar de entiti possa (setar um valor).
+        //Se eu deixar como (privado) seria uma proteção de alto nivel para quem herdar de entity (não possa setar o valor)
+        public int Id { get; protected set; }
     }

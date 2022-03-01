@@ -7,8 +7,9 @@ public class Aluno : Entidade
 {
    //(2º passo )
     //como colocamos as propriedades como privados, só podemos ter acesso através do construtor
-    public Aluno(string nomeAbreviado, string emailInterno, int usuarioId,  DateTime dataCadastro)
+    public Aluno(int AlunoId, string nomeAbreviado, string emailInterno, int usuarioId,  DateTime dataCadastro)
     {
+       Id = AlunoId;
        NomeAbreviado =  nomeAbreviado;
        EmailInterno = emailInterno;
        UsuarioId = usuarioId;

@@ -1,0 +1,15 @@
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.deps.json
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\bin\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.MessageBus.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.csproj.AssemblyReference.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.AssemblyInfoInputs.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.AssemblyInfo.cs
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.csproj.CoreCompileInputs.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.csproj.CopyComplete
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.MessageBus.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.MessageBus\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.pdb

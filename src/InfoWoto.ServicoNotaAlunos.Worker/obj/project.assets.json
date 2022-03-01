@@ -484,6 +484,72 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "InfoWoto.ServicoNotaAlunos.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Application.dll": {}
+        }
+      },
+      "InfoWoto.ServicoNotaAlunos.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Data.dll": {}
+        }
+      },
+      "InfoWoto.ServicoNotaAlunos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.Domain.dll": {}
+        }
+      },
+      "InfoWoto.ServicoNotaAlunos.IOC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Application": "1.0.0",
+          "InfoWoto.ServicoNotaAlunos.Data": "1.0.0",
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0",
+          "InfoWoto.ServicoNotaAlunos.MessageBus": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.IOC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.IOC.dll": {}
+        }
+      },
+      "InfoWoto.ServicoNotaAlunos.MessageBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.MessageBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InfoWoto.ServicoNotaAlunos.MessageBus.dll": {}
+        }
       }
     }
   },
@@ -1215,10 +1281,36 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "InfoWoto.ServicoNotaAlunos.Application/1.0.0": {
+      "type": "project",
+      "path": "../InfoWoto.ServicoNotaAlunos.Application/InfoWoto.ServicoNotaAlunos.Application.csproj",
+      "msbuildProject": "../InfoWoto.ServicoNotaAlunos.Application/InfoWoto.ServicoNotaAlunos.Application.csproj"
+    },
+    "InfoWoto.ServicoNotaAlunos.Data/1.0.0": {
+      "type": "project",
+      "path": "../InfoWoto.ServicoNotaAlunos.Data/InfoWoto.ServicoNotaAlunos.Data.csproj",
+      "msbuildProject": "../InfoWoto.ServicoNotaAlunos.Data/InfoWoto.ServicoNotaAlunos.Data.csproj"
+    },
+    "InfoWoto.ServicoNotaAlunos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InfoWoto.ServicoNotaAlunos.Domain/InfoWoto.ServicoNotaAlunos.Domain.csproj",
+      "msbuildProject": "../InfoWoto.ServicoNotaAlunos.Domain/InfoWoto.ServicoNotaAlunos.Domain.csproj"
+    },
+    "InfoWoto.ServicoNotaAlunos.IOC/1.0.0": {
+      "type": "project",
+      "path": "../InfoWoto.ServicoNotaAlunos.IOC/InfoWoto.ServicoNotaAlunos.IOC.csproj",
+      "msbuildProject": "../InfoWoto.ServicoNotaAlunos.IOC/InfoWoto.ServicoNotaAlunos.IOC.csproj"
+    },
+    "InfoWoto.ServicoNotaAlunos.MessageBus/1.0.0": {
+      "type": "project",
+      "path": "../InfoWoto.ServicoNotaAlunos.MessageBus/InfoWoto.ServicoNotaAlunos.MessageBus.csproj",
+      "msbuildProject": "../InfoWoto.ServicoNotaAlunos.MessageBus/InfoWoto.ServicoNotaAlunos.MessageBus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "InfoWoto.ServicoNotaAlunos.IOC >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 6.0.1"
     ]
   },
@@ -1252,7 +1344,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj": {
+              "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.IOC\\InfoWoto.ServicoNotaAlunos.IOC.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xooLddE1+oxOexCKYHvJOA6nKZbgVNffckC7Mcx935SI3wfEWGKrGkndC+bNBkhc1VVQdFYqo1/lQqoqS4/Vmg==",
+  "dgSpecHash": "tr66ZBNviZD+UYRMCopDMn1iWZf8WMA2rPQquzsy5U4iTbHyU8aYm1m1iMsM07S+/iHGj8q0FT5wgP0wDYctmw==",
   "success": true,
   "projectFilePath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+  ],
   "logs": []
 }

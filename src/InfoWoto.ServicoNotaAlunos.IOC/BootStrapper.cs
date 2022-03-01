@@ -5,6 +5,8 @@ using InfoWoto.ServicoNotaAlunos.Domain.Interfaces.Services;
 using InfoWoto.ServicoNotaAlunos.Domain.Interfaces.Repositories;
 using InfoWoto.ServicoNotaAlunos.Data.Repositories;
 using InfoWoto.ServicoNotaAlunos.MessageBus.SQS.Clients;
+using InfoWoto.ServicoNotaAlunos.Domain.Services;
+using InfoWoto.ServicoNotaAlunos.Domain.Notification;
 
 namespace InfoWoto.ServicoNotaAlunos.IOC;
 
@@ -15,9 +17,12 @@ namespace InfoWoto.ServicoNotaAlunos.IOC;
     {
         public static IServiceCollection ConfigurarInjecaoDependencia(this IServiceCollection services)
         {
+            //aqui eu chamo os métodos criados
             RegistrarServicos(services);
             RegistrarContexto(services);
             RegistrarRepositorios(services);
+            RegistrarFilas(services);
+            RegistrarContextoNotificacao(services);
             return services;
         }
 
@@ -31,7 +36,7 @@ namespace InfoWoto.ServicoNotaAlunos.IOC;
 
         private static void RegistrarContexto(IServiceCollection services)
         {
-
+            
         }
 
         private static void RegistrarRepositorios(IServiceCollection services)
@@ -46,5 +51,11 @@ namespace InfoWoto.ServicoNotaAlunos.IOC;
         private static void RegistrarFilas(IServiceCollection services)
         {
             services.AddScoped<ILancarNotaAlunoFakeClient, LancarNotaAlunoFakeClient>();
+        }
+
+        private static void RegistrarContextoNotificacao(IServiceCollection services)
+        {
+            //neste caso ele não vai ter interface, ele será a propria classe.
+            services.AddScoped<ContextoNotificacao>();
         }
     }

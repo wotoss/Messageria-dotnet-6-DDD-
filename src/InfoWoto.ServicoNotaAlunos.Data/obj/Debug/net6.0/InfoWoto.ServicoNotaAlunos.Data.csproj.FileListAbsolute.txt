@@ -3,3 +3,13 @@ C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.AssemblyInfoInputs.cache
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.AssemblyInfo.cs
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.csproj.CoreCompileInputs.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.deps.json
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\bin\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.Data.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.csproj.CopyComplete
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.Data.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Data\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.pdb

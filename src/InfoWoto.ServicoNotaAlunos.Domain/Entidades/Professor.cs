@@ -1,5 +1,4 @@
 
-using System;
 
 namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
 
@@ -7,9 +6,12 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
     {
     //(2º passo )
     //como colcamos as propriedades como privados, só podemos ter acesso através do construtor
-    public Professor(string nomeAbreviado, string emailInterno,  bool professorTitular, bool professorSuplente,
+    
+    public Professor(int professorId, string nomeAbreviado, string emailInterno,  bool professorTitular, bool professorSuplente,
            int usuarioId,  DateTime dataCadastro)
+     //somente o (construtor ou algum método) consegue alterar a classe, pois as minha propriedade get e set são privadas      
     {
+       Id = professorId;
        NomeAbreviado = nomeAbreviado;
        EmailInterno = emailInterno;
        ProfessorTitular = professorTitular;

@@ -44,3 +44,13 @@ C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\obj\Debug\net6.0\InfoWot
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\obj\Debug\net6.0\ref\InfoWoto.ServicoNotaAlunos.Worker.dll
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Worker.pdb
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\obj\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Worker.genruntimeconfig.cache
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Application.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.IOC.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.dll
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.IOC.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Application.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.pdb

@@ -1,4 +1,5 @@
 using InfoWoto.ServicoNotaAlunos.Domain.DomainObjects;
+using InfoWoto.ServicoNotaAlunos.Domain.Validations;
 
 namespace InfoWoto.ServicoNotaAlunos.Domain.Messages;
 
@@ -10,7 +11,7 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Messages;
 
         public int AtividadeId { get; set; }
 
-        public Guid MessageId { get; set; }
+        
         
         //CorrelationId => seria o identificador da transação.
         public Guid CorrelationId { get; set; }
@@ -21,6 +22,8 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Messages;
 
         public override bool MensagemEstaValida()
         {
-            return base.MensagemEstaValida();
+            Validacoes = RegistrarNotaAlunoValidacao.Instance.Validate(this);
+
+            return Validacoes.IsValid;
         }
     }

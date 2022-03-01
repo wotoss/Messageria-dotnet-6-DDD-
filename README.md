@@ -46,3 +46,13 @@ Lembrando para adicionar a referencia eu preciso entrar no projeto por linha de 
 ```bash
 dotnet add package Microsoft.Extensions.DependencyInjection --source https://api.nuget.org/v3/index.json
 ```
+
+## Rodar ou buidar aplicação toda
+```bash
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker>dotnet build
+```
+
+## Pacote instalado por mim
+```bash
+instalei no domain => dotnet add package FluentValidation
+```

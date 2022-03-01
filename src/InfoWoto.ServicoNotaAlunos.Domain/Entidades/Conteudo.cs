@@ -1,5 +1,4 @@
-using System;
-using System.Collections.Generic;
+
 
 namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
 //lembrando que ao herdar a (classe Entidade) estamos herdando o (Id)
@@ -27,6 +26,11 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
         //vamos trabalhar com atributos privados para ajudar no encapsulamento
         //se eu quiser mudar o nome do usuario eu preciso ter um método que mude a propriedade.
         //Caso precise alterar usaremos (EdHook) métodos que alteram alguma propriedade.
+
+        //Observação
+        //Os get => são pubico você pode lêr 
+        //Mas os Set => são privados
+        //Só pode Atualizar os Set => Atraves dos Métodos ou contutores.
         public string Nome { get; private set; }
 
         public string Descricao { get; private set; }
@@ -44,5 +48,10 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
 
         //um conteudo tem muitas atividades
         public ICollection<Atividade> Atividades { get; private set; }
+
+        //para não alterar o encapsulamento da classe Atividade
+
+        public void CadastrarAtividade(Atividade atividade) =>
+             Atividades.Add(atividade);
     }
   

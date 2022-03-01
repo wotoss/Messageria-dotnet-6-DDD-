@@ -2,7 +2,7 @@ using  InfoWoto.ServicoNotaAlunos.MessageBus.Messages;
 
 namespace InfoWoto.ServicoNotaAlunos.MessageBus.SQS.Clients
 {
-public class SqsClient<T> : IQueueClient<T>
+public abstract class SqsClient<T> : IQueueClient<T>
 {
     //quando eu coloco virtual eu dou a possibilidade de sobescrever o método
    public virtual Task DeleteMessageAsync(string messageHandle)

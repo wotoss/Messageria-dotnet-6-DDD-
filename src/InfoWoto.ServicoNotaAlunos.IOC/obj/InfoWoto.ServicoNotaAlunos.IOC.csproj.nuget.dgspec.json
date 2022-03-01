@@ -30,7 +30,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -87,7 +91,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -195,6 +203,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -276,7 +285,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj": {
+                "projectPath": "C:\\worker-service\\src\\InfoWoto.ServicoNotaAlunos.Domain\\InfoWoto.ServicoNotaAlunos.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

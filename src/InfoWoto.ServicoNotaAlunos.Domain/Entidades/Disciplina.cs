@@ -44,4 +44,7 @@ public class Disciplina : Entidade, IRaizAgregacao
     
     //uma disciplina tem varios conteudos.
     public ICollection<Conteudo> Conteudos { get; private set; }
+
+    public void AdicionarConteudo(Conteudo conteudo) =>
+      Conteudos.Add(conteudo);
 }

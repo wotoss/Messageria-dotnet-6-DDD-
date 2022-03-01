@@ -45,6 +45,9 @@
       "InfoWoto.ServicoNotaAlunos.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/InfoWoto.ServicoNotaAlunos.Application.dll": {}
         },
@@ -55,6 +58,9 @@
       "InfoWoto.ServicoNotaAlunos.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/InfoWoto.ServicoNotaAlunos.Data.dll": {}
         },
@@ -75,6 +81,9 @@
       "InfoWoto.ServicoNotaAlunos.MessageBus/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InfoWoto.ServicoNotaAlunos.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/InfoWoto.ServicoNotaAlunos.MessageBus.dll": {}
         },
@@ -214,6 +223,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
