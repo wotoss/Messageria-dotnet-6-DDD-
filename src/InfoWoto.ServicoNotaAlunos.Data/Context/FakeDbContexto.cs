@@ -25,6 +25,8 @@ namespace InfoWoto.ServicoNotaAlunos.Data.Context;
             var alunos = new List<Aluno>();
 
             Aluno aluno = new(1234, "Raphael", "raphael.s@email.com", 1212, DateTime.Now);
+            
+            alunos.Add(aluno);
 
             return alunos;
         }
@@ -34,6 +36,8 @@ namespace InfoWoto.ServicoNotaAlunos.Data.Context;
             var professores = new List<Professor>();
 
             Professor professor = new(1282727, "Danilo", "danilo.s@email.com", true, false, 1212, DateTime.Now);
+            
+            professores.Add(professor);
 
             return professores;
         }

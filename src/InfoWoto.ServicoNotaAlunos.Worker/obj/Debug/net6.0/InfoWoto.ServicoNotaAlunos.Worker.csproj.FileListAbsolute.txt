@@ -54,3 +54,4 @@ C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWot
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Data.pdb
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.Domain.pdb
 C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\InfoWoto.ServicoNotaAlunos.MessageBus.pdb
+C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker\bin\Debug\net6.0\FluentValidation.dll

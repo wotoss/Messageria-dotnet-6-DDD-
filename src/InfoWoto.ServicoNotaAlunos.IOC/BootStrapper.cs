@@ -7,6 +7,7 @@ using InfoWoto.ServicoNotaAlunos.Data.Repositories;
 using InfoWoto.ServicoNotaAlunos.MessageBus.SQS.Clients;
 using InfoWoto.ServicoNotaAlunos.Domain.Services;
 using InfoWoto.ServicoNotaAlunos.Domain.Notification;
+using InfoWoto.ServicoNotaAlunos.Data.Context;
 
 namespace InfoWoto.ServicoNotaAlunos.IOC;
 
@@ -34,10 +35,11 @@ namespace InfoWoto.ServicoNotaAlunos.IOC;
             services.AddScoped<IServicoNotaAluno, ServicoNotaAluno>();
         }
 
-        private static void RegistrarContexto(IServiceCollection services)
-        {
-            
-        }
+        private static void RegistrarContexto(IServiceCollection services) =>
+        services.AddScoped<FakeDbContexto>();
+        //{
+         //   services.AddScoped<FakeDbContexto>();
+        //}
 
         private static void RegistrarRepositorios(IServiceCollection services)
         {
