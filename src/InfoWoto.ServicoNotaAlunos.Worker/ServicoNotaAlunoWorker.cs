@@ -22,7 +22,9 @@ public class ServicoNotaAlunoWorker : BackgroundService
     {
         while (!stoppingToken.IsCancellationRequested)
         {
-           _logger.LogInformation("Iniciando o serviço de notas");
+            //veja boa pratica => fiz uma classe Constantes para receber todas as minhas mensagens do sistema 
+               //e utilizo ela buscando pela (Classe=>Constantes=> classe statica=>MensagensAplicacao=>Propriedade=>Mensagem=>SEM_MENSAGEM_NA_FILA)
+           _logger.LogInformation(Constantes.MensagensAplicacao.INICANDO_SERVICO);
              //esta criando uma fabrica de escopo.
            using var scope = _serviceScopeFactory.CreateScope();
            //aqui eu tenho o serviço de aplicação.
@@ -44,7 +46,9 @@ public class ServicoNotaAlunoWorker : BackgroundService
            }
            if(mensagem is null)
            {
-               _logger.LogInformation("Não possuem mensagens a ser processadas na fila..");
+               //veja boa pratica => fiz uma classe Constantes para receber todas as minhas mensagens do sistema 
+               //e utilizo ela buscando pela (Classe=>Constantes=> classe statica=>MensagensAplicacao=>Propriedade=>Mensagem=>SEM_MENSAGEM_NA_FILA)
+               _logger.LogInformation(Constantes.MensagensAplicacao.SEM_MENSAGEM_NA_FILA);
                continue;
            }
 
