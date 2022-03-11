@@ -1,6 +1,5 @@
 using InfoWoto.ServicoNotaAlunos.Application.Interfaces;
 using InfoWoto.ServicoNotaAlunos.Domain.Excecoes;
-using InfoWoto.ServicoNotaAlunos.Domain.Excecoes;
 using InfoWoto.ServicoNotaAlunos.Domain.Interfaces.Services;
 using InfoWoto.ServicoNotaAlunos.Domain.Messages;
 

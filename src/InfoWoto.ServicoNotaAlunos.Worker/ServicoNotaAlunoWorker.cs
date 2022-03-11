@@ -2,6 +2,8 @@
 using InfoWoto.ServicoNotaAlunos.Domain.Notification;
 using InfoWoto.ServicoNotaAlunos.MessageBus.SQS.Clients;
 using InfoWoto.ServicoNotaAlunos.Application.Interfaces;
+using InfoWoto.ServicoNotaAlunos.Domain.Utils;
+
 namespace InfoWoto.ServicoNotaAlunos.Worker;
 
 public class ServicoNotaAlunoWorker : BackgroundService
