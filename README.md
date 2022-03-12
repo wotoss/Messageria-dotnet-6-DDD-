@@ -56,3 +56,15 @@ C:\worker-service\src\InfoWoto.ServicoNotaAlunos.Worker>dotnet build
 ```bash
 instalei no domain => dotnet add package FluentValidation
 ```
+## Sites para estudo
+```bash
+- https://refactoring.guru/pt-br - Refactoring Guru
+```
+
+## Compilar o sistema completo
+```bash
+cd src/InfoWoto.ServicoNotaAlunos.Worker
+logo após => dotnet build
+dotnet run 
+rodar em debbugger
+```

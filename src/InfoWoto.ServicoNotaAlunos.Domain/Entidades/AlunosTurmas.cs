@@ -1,14 +1,13 @@
-using System;
-using System.Collections.Generic;
+
 namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
 
     public class AlunosTurmas
     {
-        public AlunosTurmas(int alunoId, int turmoId, DateTime dataCadastro)
+        public AlunosTurmas(int alunoId, int turmaId, DateTime dataCadastro)
                            
         {
            AlunoId = alunoId;
-           TurmoId = turmoId;
+           TurmaId = turmaId;
            DataCadastro = dataCadastro;
            Turmas = new List<Turma>();
            Alunos = new List<Aluno>();
@@ -19,7 +18,7 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
         
         //relacionameto de (muitos para muitos)
         //e uma turmas tem varios alunos
-        public  int TurmoId { get; set; }
+        public  int TurmaId { get; set; }
 
         public DateTime DataCadastro { get; set; }
 

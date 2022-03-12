@@ -8,7 +8,7 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
     //como colcamos as propriedades como privados, só podemos ter acesso através do construtor
     
     public Professor(int professorId, string nomeAbreviado, string emailInterno,  bool professorTitular, bool professorSuplente,
-           int usuarioId,  DateTime dataCadastro)
+           int usuarioId,  DateTime dataCadastro, int disciplinaId)
      //somente o (construtor ou algum método) consegue alterar a classe, pois as minha propriedade get e set são privadas      
     {
        Id = professorId;
@@ -18,6 +18,7 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
        ProfessorSuplente = professorSuplente;
        UsuarioId = usuarioId;
        DataCadastro =  dataCadastro;
+       DisciplinaId = disciplinaId;
     }
 
     //(3º passo )
@@ -40,10 +41,10 @@ namespace InfoWoto.ServicoNotaAlunos.Domain.Entidades;
         public int UsuarioId { get; private set; }
 
         public DateTime DataCadastro { get; private set; }
-
+       
+         public int DisciplinaId { get; private set; }
         //relacionamento
         public Usuario Usuario { get; private set; }
 
         public Disciplina Disciplina { get; private set; }
     }
-

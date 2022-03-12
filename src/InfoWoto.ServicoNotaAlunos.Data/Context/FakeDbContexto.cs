@@ -25,6 +25,16 @@ namespace InfoWoto.ServicoNotaAlunos.Data.Context;
             var alunos = new List<Aluno>();
 
             Aluno aluno = new(1234, "Raphael", "raphael.s@email.com", 1212, DateTime.Now);
+            /*
+            aluno.AlunosTurmas = new List<AlunosTurmas>() 
+            { 
+            new(1234,10019,DateTime.Now) 
+            {
+                Turma =
+                    new("Grupo Matemática I", Periodo.Noturno, new DateTime(2021,06,01),
+                    new DateTime(2021,12,01), DateTime.Now, 1341567)
+            } 
+           };*/
             
             alunos.Add(aluno);
 
@@ -35,7 +45,7 @@ namespace InfoWoto.ServicoNotaAlunos.Data.Context;
         {
             var professores = new List<Professor>();
 
-            Professor professor = new(1282727, "Danilo", "danilo.s@email.com", true, false, 1212, DateTime.Now);
+            Professor professor = new(1282727, "Danilo", "danilo.s@email.com", true, false, 1212, DateTime.Now,  1341567);
             
             professores.Add(professor);
 

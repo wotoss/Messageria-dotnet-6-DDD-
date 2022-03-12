@@ -24,6 +24,7 @@ namespace InfoWoto.ServicoNotaAlunos.IOC;
             RegistrarRepositorios(services);
             RegistrarFilas(services);
             RegistrarContextoNotificacao(services);
+            RegistrarEncadeamento(services);
             return services;
         }
 
@@ -59,5 +60,10 @@ namespace InfoWoto.ServicoNotaAlunos.IOC;
         {
             //neste caso ele não vai ter interface, ele será a propria classe.
             services.AddScoped<ContextoNotificacao>();
+        }
+
+        private static void RegistrarEncadeamento(IServiceCollection services)
+        {
+
         }
     }

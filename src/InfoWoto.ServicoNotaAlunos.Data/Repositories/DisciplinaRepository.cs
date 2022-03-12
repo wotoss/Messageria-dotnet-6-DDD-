@@ -15,7 +15,7 @@ public class DisciplinaRepository : IDisciplinaRepository
     }
     public IUnitOfWork UnitOfWork => _contexto;
 
-    public async Task<Disciplina> BuscarDisciplinaPorAtividade(int atividadeId) =>
+    public async Task<Disciplina> BuscarDisciplinaPorAtividadeId(int atividadeId) =>
        await Task.FromResult(_contexto.Disciplinas.FirstOrDefault(x => x.Conteudos.SelectMany(y => y.Atividades)
        .Any(y => y.Id == atividadeId)));
 
